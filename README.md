@@ -40,6 +40,33 @@ Once Activated you can use pip install to set up the required modules/things
 ### Stopping the environment
 Finish up: deactivate.bat
 
+# Data Model
+##Sketches
+| Field Name       | Type     |
+|..................|..........|
+| SketchID         | GUID     |
+| TwitterID        | INT      |
+| FavCount         | INT      |
+| RetweetCount     | INT      |
+| InstructionSetID | GUID     |
+| FileName         | NVARCHAR |
+| CreatedDate      | DateTime |
+
+##InstructionSets
+| Field Name       | Type     |
+|..................|..........|
+| InstructionSetID | GUID     |
+| Lines            | INT      |
+| Arcs             | INT      |
 
 # References
-https://projects.raspberrypi.org/en/projects/tweeting-babbage/
+## Pi Coding
+- https://projects.raspberrypi.org/en/projects/tweeting-babbage/
+- https://projects.raspberrypi.org/en/projects/documenting-your-code/
+## Twitter Analytics
+- https://blog.bufferapp.com/twitter-analytics
+- https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/
+- https://github.com/bonzanini/Book-SocialMediaMiningPython
+## Data Management
+- https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress/5
+- http://raspberrywebserver.com/sql-databases/using-mysql-on-a-raspberry-pi.html
