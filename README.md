@@ -41,9 +41,9 @@ Once Activated you can use pip install to set up the required modules/things
 Finish up: deactivate.bat
 
 # Data Model
-##Sketches
+## Sketches
 | Field Name       | Type     |
-|..................|..........|
+| ---------------- | -------- |
 | SketchID         | GUID     |
 | TwitterID        | INT      |
 | FavCount         | INT      |
@@ -52,9 +52,9 @@ Finish up: deactivate.bat
 | FileName         | NVARCHAR |
 | CreatedDate      | DateTime |
 
-##InstructionSets
+## InstructionSets
 | Field Name       | Type     |
-|..................|..........|
+| ---------------- | -------- |
 | InstructionSetID | GUID     |
 | Lines            | INT      |
 | Arcs             | INT      |
@@ -63,10 +63,11 @@ Finish up: deactivate.bat
 ## Pi Coding
 - https://projects.raspberrypi.org/en/projects/tweeting-babbage/
 - https://projects.raspberrypi.org/en/projects/documenting-your-code/
-## Twitter Analytics
+## Twitter
 - https://blog.bufferapp.com/twitter-analytics
 - https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/
 - https://github.com/bonzanini/Book-SocialMediaMiningPython
+- https://gist.github.com/dev-techmoe/ef676cdd03ac47ac503e856282077bf2
 ## Data Management
 - https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress/5
 - http://raspberrywebserver.com/sql-databases/using-mysql-on-a-raspberry-pi.html
