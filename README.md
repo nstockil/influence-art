@@ -1,5 +1,6 @@
-# Influence Art 
+This project is shared from attending a Raspberry PI Educator training course.
 
+# Influence Art 
 The code behind the journey of an artist.
 
 ## TODO
